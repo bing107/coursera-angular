@@ -7,7 +7,7 @@
   LunchCheckController.$inject = [ '$scope' ];
 
   function LunchCheckController( $scope ) {
-
+    
 
     $scope.checkFood = function () {
       if ( ! $scope.foodList ) {
